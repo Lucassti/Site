@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: "android";
+    src: url(font/idroid.otf);
+}
+*{
+    width: 100%;
+    margin: 0;
+}
+:root{
+--font-padrao:"android";
+--font-sec:"sans-serif";
+}
+
+h1{
+    font-family: var(--font-padrao);
+    text-align: center;
+    color: white;
+}
+header > h2{
+    font-family: var(--font-sec);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    font-weight: 200;
+}
+header{
+    background: linear-gradient(180deg, #21a367, #177046);
+    width: 100%;
+    margin-top: 0px;
+    padding-bottom: 100px;
+}
+nav{
+margin-top: -30px;
+}
+nav > a{
+    margin-right: 15px;
+}
